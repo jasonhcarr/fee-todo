@@ -1,0 +1,20 @@
+body {
+    background-color: $backgroundColor;
+    border-sizing: box-border;
+}
+
+header {
+    margin-top: 125px;
+
+    h1 {
+        font {
+            weight: lighter;
+            size: 4em;
+            family: $primaryFont;
+        }
+        text-decoration: none;
+        line-height: auto;
+        text-align: center;
+        color: #ebdada;
+    }
+}

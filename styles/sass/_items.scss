@@ -1,0 +1,53 @@
+.items {
+    padding: 0;
+    margin: 0;
+
+    .line-item {
+        list-style: none;
+        overflow: hidden;
+        border-top: 1px solid $innerBorderColor;
+        border-bottom: 1px solid $innerBorderColor;
+
+        &:hover .delete {
+            display: block;
+        }
+
+        input[type=checkbox] {
+            height: 50px;
+            width: 50px;
+            float: left;
+
+            &:checked + .edit-todo {
+                color: $lightTextColor;
+                text-decoration: line-through;
+            }
+        }
+
+        .edit-todo {
+            line-height: 50px;
+            font: {
+                family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+                size: 2em;
+                color: $titleTextColor;
+                stretch: expanded;
+                weight: lighter;
+            }
+            float: left;
+            width: 75%;
+            padding-left: 5%;
+            margin: 0;
+            border: none;
+        }
+
+        .delete {
+          margin-right: 10px;
+            height: 50px;
+            float: right;
+            display: none;
+            color: $deleteColor;
+            background-color: white;
+            border: none;
+        }
+    }
+}
+}

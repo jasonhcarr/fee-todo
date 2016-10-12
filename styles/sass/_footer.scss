@@ -1,0 +1,55 @@
+footer {
+    padding: 5px 0;
+    height: 35px;
+    text-align: center;
+    font-size: 0.75em;
+    color: $lightTextColor;
+    background-color: white;
+    border-top: 1px $innerBorderColor;
+    width: 50%;
+    height: auto;
+    margin: 0 25%;
+    -webkit-box-shadow: 0 5px 19px 0 rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0 5px 19px 0 rgba(50, 50, 50, 0.75);
+    box-shadow: 0 5px 19px 0 rgba(50, 50, 50, 0.75);
+
+    .remaining {
+      line-height: 18px;
+        margin: 0;
+        padding: 6px 17% 0 10px;
+        height: 30px;
+        float: left;
+        background-color: white;
+    }
+
+    .show-container {
+        list-style: none;
+        overflow: hidden;
+        background-color: white;
+        margin: 0;
+        padding: 1px 6.5px;
+        height: 30px;
+        width: 50%;
+
+        .show {
+          margin: 2px 5px;
+          padding-bottom: 2px;
+          line-height: 18px;
+            height: 20px;
+            padding: 3px;
+            border: none;
+            background-color: white;
+            text-align: center;
+            float: left;
+        }
+    }
+
+    .clear {
+        margin: 0;
+        padding: 0 6.5px;
+        background-color: white;
+        border: none;
+        float: right;
+        height: 30px;
+    }
+}
